@@ -46,6 +46,7 @@ public class ReportCard {
         this.mYear = Year;
     }
 
+    // toString method returns String with all data in arrays in readable form.
     @Override
     public String toString() {
         String result = "Year: " + mYear + "\n"
